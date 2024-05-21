@@ -25,6 +25,7 @@
 
 - name: remove duplicates
   hosts: localhost
+  vars:
   number: [ 1, 2, 3, 4, 4, 5]
   tasks:
   - name: remove duplicates
